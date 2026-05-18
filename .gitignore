@@ -1,0 +1,19 @@
+# OS (Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Java / Maven
+target/
+*.class
+*.log
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
