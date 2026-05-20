@@ -1,0 +1,3210 @@
+{
+    "metainfo": {
+        "id": 106161,
+        "title": "Puestos de trabajo asalariados por ramas de actividad",
+        "subtitle": "Revisión estadística 2024",
+        "activity": "Contabilidad Regional Trimestral de Andalucía",
+        "source": "Instituto de Estadística y Cartografía de Andalucía",
+        "periodicity": "Trimestral",
+        "type": "I",
+        "notes": ""
+    },
+    "hierarchies": [
+        {
+            "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/jerarquia/1492?consultaId=106161&alias=D_CRTA_PUESTRABASAB2008_0",
+            "cod": "d1165_j1492",
+            "des": "Puestos de trabajo asalariados",
+            "position": "f",
+            "order": 0,
+            "alias": "D_CRTA_PUESTRABASAB2008_0",
+            "levels": [
+                {
+                    "id": 1959,
+                    "name": "Nivel0",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/jerarquia/4?consultaId=106161&alias=D_TEMPORAL_0",
+            "cod": "d1_j4",
+            "des": "Trimestral",
+            "position": "c",
+            "order": 0,
+            "alias": "D_TEMPORAL_0",
+            "levels": [
+                {
+                    "id": 1,
+                    "name": "Año",
+                    "order": 0
+                },
+                {
+                    "id": 3,
+                    "name": "Trimestre",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/jerarquia/105?consultaId=106161&alias=D_TERRITORIO_0",
+            "cod": "d21_j105",
+            "des": "Territorio",
+            "position": "p",
+            "order": 0,
+            "alias": "D_TERRITORIO_0",
+            "levels": [
+                {
+                    "id": 149,
+                    "name": "CCAA / Continentes",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/jerarquia/1489?consultaId=106161&alias=D_CRTA_SERIE_0",
+            "cod": "d1143_j1489",
+            "des": "Serie",
+            "position": "p",
+            "order": 1,
+            "alias": "D_CRTA_SERIE_0",
+            "levels": [
+                {
+                    "id": 1937,
+                    "name": "Nivel0",
+                    "order": 0
+                }
+            ]
+        }
+    ],
+    "measures": [
+        {
+            "id": 675615,
+            "des": "Valor",
+            "position": "c",
+            "order": 0,
+            "type": "m"
+        }
+    ],
+    "data": [
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "223937.0",
+                "format": "223.937"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "214166.0",
+                "format": "214.166"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "167314.0",
+                "format": "167.314"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "189758.0",
+                "format": "189.758"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "224382.0",
+                "format": "224.382"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "206955.0",
+                "format": "206.955"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "174634.0",
+                "format": "174.634"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.01"
+                ],
+                "des": "Agricultura, ganadería, silvicultura y pesca"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "197886.0",
+                "format": "197.886"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "279122.0",
+                "format": "279.122"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "298549.0",
+                "format": "298.549"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "285315.0",
+                "format": "285.315"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "279319.0",
+                "format": "279.319"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "266065.0",
+                "format": "266.065"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "263369.0",
+                "format": "263.369"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "262866.0",
+                "format": "262.866"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02"
+                ],
+                "des": "Industria"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "265624.0",
+                "format": "265.624"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "234143.0",
+                "format": "234.143"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "245108.0",
+                "format": "245.108"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "225695.0",
+                "format": "225.695"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "226352.0",
+                "format": "226.352"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "217097.0",
+                "format": "217.097"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "215168.0",
+                "format": "215.168"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "207168.0",
+                "format": "207.168"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.02.01"
+                ],
+                "des": "De las cuales: industria manufacturera"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "218884.0",
+                "format": "218.884"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "227275.0",
+                "format": "227.275"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "223573.0",
+                "format": "223.573"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "224170.0",
+                "format": "224.170"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "221035.0",
+                "format": "221.035"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "211334.0",
+                "format": "211.334"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "216444.0",
+                "format": "216.444"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "212803.0",
+                "format": "212.803"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.03"
+                ],
+                "des": "Construcción"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "213331.0",
+                "format": "213.331"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2454381.0",
+                "format": "2.454.381"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2478262.0",
+                "format": "2.478.262"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2470514.0",
+                "format": "2.470.514"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2399921.0",
+                "format": "2.399.921"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2322003.0",
+                "format": "2.322.003"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2364941.0",
+                "format": "2.364.941"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2397362.0",
+                "format": "2.397.362"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04"
+                ],
+                "des": "Servicios"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "2327557.0",
+                "format": "2.327.557"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "850585.0",
+                "format": "850.585"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "870925.0",
+                "format": "870.925"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "896043.0",
+                "format": "896.043"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "872958.0",
+                "format": "872.958"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "803022.0",
+                "format": "803.022"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "808605.0",
+                "format": "808.605"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "823999.0",
+                "format": "823.999"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.01"
+                ],
+                "des": "Comercio, transporte y hostelería"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "811203.0",
+                "format": "811.203"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "66776.0",
+                "format": "66.776"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "61761.0",
+                "format": "61.761"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "65447.0",
+                "format": "65.447"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "67336.0",
+                "format": "67.336"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "69876.0",
+                "format": "69.876"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "67471.0",
+                "format": "67.471"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "72077.0",
+                "format": "72.077"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.02"
+                ],
+                "des": "Información y comunicaciones"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "71157.0",
+                "format": "71.157"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "44080.0",
+                "format": "44.080"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "40856.0",
+                "format": "40.856"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "40059.0",
+                "format": "40.059"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "39482.0",
+                "format": "39.482"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "40799.0",
+                "format": "40.799"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "39151.0",
+                "format": "39.151"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "37708.0",
+                "format": "37.708"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.03"
+                ],
+                "des": "Actividades financieras y de seguros"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "37995.0",
+                "format": "37.995"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "24167.0",
+                "format": "24.167"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "24182.0",
+                "format": "24.182"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "25071.0",
+                "format": "25.071"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "23968.0",
+                "format": "23.968"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "23411.0",
+                "format": "23.411"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "23234.0",
+                "format": "23.234"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "23579.0",
+                "format": "23.579"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.04"
+                ],
+                "des": "Actividades Inmobiliarias"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "23309.0",
+                "format": "23.309"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "355078.0",
+                "format": "355.078"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "370506.0",
+                "format": "370.506"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "373145.0",
+                "format": "373.145"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "332798.0",
+                "format": "332.798"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "320367.0",
+                "format": "320.367"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "330209.0",
+                "format": "330.209"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "334580.0",
+                "format": "334.580"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.05"
+                ],
+                "des": "Actividades profesionales"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "310625.0",
+                "format": "310.625"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "877948.0",
+                "format": "877.948"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "871837.0",
+                "format": "871.837"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "838622.0",
+                "format": "838.622"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "815855.0",
+                "format": "815.855"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "813230.0",
+                "format": "813.230"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "853977.0",
+                "format": "853.977"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "841477.0",
+                "format": "841.477"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.06"
+                ],
+                "des": "Administración pública, sanidad y educación"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "830847.0",
+                "format": "830.847"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "235747.0",
+                "format": "235.747"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "238195.0",
+                "format": "238.195"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "232127.0",
+                "format": "232.127"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "247524.0",
+                "format": "247.524"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "251298.0",
+                "format": "251.298"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "242294.0",
+                "format": "242.294"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "263942.0",
+                "format": "263.942"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA.04.07"
+                ],
+                "des": "Actividades artísticas, recreativas y otros servicios"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "242421.0",
+                "format": "242.421"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20261"
+                ],
+                "des": "2026-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3184715.0",
+                "format": "3.184.715"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20254"
+                ],
+                "des": "2025-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3214550.0",
+                "format": "3.214.550"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20253"
+                ],
+                "des": "2025-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3147313.0",
+                "format": "3.147.313"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20252"
+                ],
+                "des": "2025-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3090033.0",
+                "format": "3.090.033"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20251"
+                ],
+                "des": "2025-1er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3023784.0",
+                "format": "3.023.784"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20244"
+                ],
+                "des": "2024-4º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3051709.0",
+                "format": "3.051.709"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20243"
+                ],
+                "des": "2024-3er trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3047665.0",
+                "format": "3.047.665"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "PA"
+                ],
+                "des": "PUESTOS DE TRABAJO ASALARIADOS"
+            },
+            {
+                "cod": [
+                    "20242"
+                ],
+                "des": "2024-2º trimestre"
+            },
+            {
+                "cod": [
+                    "C01"
+                ],
+                "des": "Andalucía"
+            },
+            {
+                "cod": [
+                    "1"
+                ],
+                "des": "Datos brutos"
+            },
+            {
+                "val": "3004398.0",
+                "format": "3.004.398"
+            }
+        ]
+    ]
+}
