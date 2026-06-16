@@ -14,6 +14,17 @@ public class RegistroEmpleos {
                            Integer anio,
                            Integer trimestre,
                            Double puestos) {
+
+        if (trimestre == null || trimestre > 4) {
+            throw new IllegalArgumentException("El trimestre debe ser un valor entre 1 y 4.");
+        }
+
+        if (puestos == null || puestos < 0) {
+            throw new IllegalArgumentException("El número de puestos debe ser un valor positivo.");
+        }
+
+
+
         this.id = id;
         this.territorio = territorio;
         this.sector = sector;
