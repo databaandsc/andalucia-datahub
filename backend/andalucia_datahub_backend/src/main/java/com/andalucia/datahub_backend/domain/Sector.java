@@ -13,14 +13,17 @@ public class Sector {
     }
 
     public Long getId() {
+
         return id;
     }
 
     public String getCodigoSector() {
+
         return CodigoSector;
     }
 
     public String getDescripcionSector() {
+
         return DescripcionSector;
     }
 }

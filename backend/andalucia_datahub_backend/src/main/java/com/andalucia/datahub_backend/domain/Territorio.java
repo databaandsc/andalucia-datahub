@@ -12,14 +12,17 @@ public class Territorio {
     }
 
     public Long getId() {
+
         return id;
     }
 
-    public String getCodigo_territorio() {
+    public String getCodigoTerritorio() {
+
         return codigoTerritorio;
     }
 
-    public String getDescripcion_territorio() {
+    public String getDescripcionTerritorio() {
+
         return descripcionTerritorio;
     }
 }

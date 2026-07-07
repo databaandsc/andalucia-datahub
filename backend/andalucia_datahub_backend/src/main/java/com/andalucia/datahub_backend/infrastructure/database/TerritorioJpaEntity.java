@@ -26,20 +26,28 @@ public class TerritorioJpaEntity {
     }
 
     //  Getters y Setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getCodigo() {
+
         return codigoTerritorio;
     }
 
     public void setCodigo(String codigo) {
+
         this.codigoTerritorio = codigo;
     }
 
     public String getDescripcion() {
+
         return descripcionTerritorio;
     }
+
     public void setDescripcion(String descripcion) {
         this.descripcionTerritorio = descripcion;
     }

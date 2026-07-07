@@ -1,4 +1,4 @@
-package application;
+package com.andalucia.datahub_backend.application;
 
 import com.andalucia.datahub_backend.domain.RegistroEmpleoRepository;
 import com.andalucia.datahub_backend.domain.RegistroEmpleos;
@@ -7,6 +7,7 @@ public class ImportarRegistrosUseCase {
     private final RegistroEmpleoRepository repository;
 
     public ImportarRegistrosUseCase(RegistroEmpleoRepository repository) {
+
         this.repository = repository;
     }
 
