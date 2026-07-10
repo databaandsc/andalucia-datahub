@@ -43,7 +43,7 @@ public class RegistroEmpleoPostgresAdapter implements RegistroEmpleoRepository {
         registroJpa.setTrimestre(registroEmpleo.getTrimestre());
         registroJpa.setPuestos(registroEmpleo.getPuestos());
 
-        // 3. LA MAGIA DE SPRING BOOT:
+        // 3. Guardar en la base de datos:
         RegistroEmpleoJpaEntity guardadoJpa = registroRepository.save(registroJpa);
 
         // 4. DEVOLVER AL DOMINIO:
