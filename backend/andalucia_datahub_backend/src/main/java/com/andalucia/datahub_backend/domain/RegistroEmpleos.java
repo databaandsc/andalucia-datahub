@@ -6,14 +6,14 @@ public class RegistroEmpleos {
     private final Sector sector;
     private final Integer anio;
     private final Integer trimestre;
-    private final Double puestos;
+    private final Integer puestos;
 
     public RegistroEmpleos(Long id,
                            Territorio territorio,
                            Sector sector,
                            Integer anio,
                            Integer trimestre,
-                           Double puestos) {
+                           Integer puestos) {
 
         if (trimestre == null || trimestre > 4) {
             throw new IllegalArgumentException("El trimestre debe ser un valor entre 1 y 4.");
@@ -23,9 +23,30 @@ public class RegistroEmpleos {
             throw new IllegalArgumentException("El número de puestos debe ser un valor positivo.");
         }
 
-
-
         this.id = id;
+        this.territorio = territorio;
+        this.sector = sector;
+        this.anio = anio;
+        this.trimestre = trimestre;
+        this.puestos = puestos;
+    }
+
+    // Constructor preparado para recibir los 5 datos exactos del Controlador
+    public RegistroEmpleos(Territorio territorio,
+                           Sector sector,
+                           Integer anio,
+                           Integer trimestre,
+                           Integer puestos) {
+
+        if (trimestre == null || trimestre > 4) {
+            throw new IllegalArgumentException("El trimestre debe ser un valor entre 1 y 4.");
+        }
+
+        if (puestos == null || puestos < 0) {
+            throw new IllegalArgumentException("El número de puestos debe ser un valor positivo.");
+        }
+
+        this.id = null;
         this.territorio = territorio;
         this.sector = sector;
         this.anio = anio;
@@ -53,7 +74,7 @@ public class RegistroEmpleos {
         return trimestre;
     }
 
-    public Double getPuestos() {
+    public Integer getPuestos() {
         return puestos;
     }
 }

@@ -5,10 +5,14 @@ public class Territorio {
     private final String codigoTerritorio;
     private final String descripcionTerritorio;
 
-    public Territorio (Long id, String codigo_territorio, String descripcion_territorio) {
+    public Territorio (Long id, String codigoTerritorio, String descripcionTerritorio) {
         this.id = id;
-        this.codigoTerritorio = codigo_territorio;
-        this.descripcionTerritorio = descripcion_territorio;
+        this.codigoTerritorio = codigoTerritorio;
+        this.descripcionTerritorio = descripcionTerritorio;
+    }
+
+    public Territorio(String codigoTerritorio) {
+        this(null, codigoTerritorio, null);
     }
 
     public Long getId() {

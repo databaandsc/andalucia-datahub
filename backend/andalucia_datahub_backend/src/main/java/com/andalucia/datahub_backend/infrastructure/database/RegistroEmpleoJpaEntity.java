@@ -25,7 +25,7 @@ public class RegistroEmpleoJpaEntity {
     private Integer trimestre;
 
     @Column (name = "puestos")
-    private Double puestos;
+    private Integer puestos;
 
     public RegistroEmpleoJpaEntity() {}
 
@@ -34,7 +34,7 @@ public class RegistroEmpleoJpaEntity {
                                     SectorJpaEntity sector,
                                     Integer annio,
                                     Integer trimestre,
-                                    Double puestos) {
+                                    Integer puestos) {
         this.id = id;
         this.territorio = territorio;
         this.sector = sector;
@@ -83,11 +83,11 @@ public class RegistroEmpleoJpaEntity {
         this.trimestre = trimestre;
     }
 
-    public Double getPuestos() {
+    public Integer getPuestos() {
         return puestos;
     }
 
-    public void setPuestos(Double puestos) {
+    public void setPuestos(Integer puestos) {
         this.puestos = puestos;
     }
 }

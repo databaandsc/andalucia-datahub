@@ -12,6 +12,10 @@ public class Sector {
         this.DescripcionSector = DescripcionSector;
     }
 
+    public Sector(String CodigoSector){
+        this(null, CodigoSector, null);
+    }
+
     public Long getId() {
 
         return id;
