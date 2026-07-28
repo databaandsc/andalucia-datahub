@@ -36,7 +36,7 @@ public class IngestaMasivaUseCase {
             String codigoSectorRaw = fila.get(0).get("cod").get(0).asText();
             String tiempoCodigoRaw = fila.get(1).get("cod").get(0).asText();
             String codigoTerritorioRaw = fila.get(2).get("cod").get(0).asText();
-            int puestos = fila.get(4).get("val").asInt();
+            int puestos = (int) fila.get(4).get("val").asDouble();
 
             // FASE T: Transformación (Partimos "20261" -> Año 2026, Trimestre 1)
             int anio = Integer.parseInt(tiempoCodigoRaw.substring(0, 4));
