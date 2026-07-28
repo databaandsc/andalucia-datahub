@@ -18,8 +18,8 @@ public class RegistroEmpleoJpaEntity {
     @JoinColumn(name = "id_sector")
     private SectorJpaEntity sector;
 
-    @Column (name = "año")
-    private Integer annio;
+    @Column (name = "anio")
+    private Integer anio;
 
     @Column (name = "trimestre")
     private Integer trimestre;
@@ -32,18 +32,19 @@ public class RegistroEmpleoJpaEntity {
     public RegistroEmpleoJpaEntity (Long id,
                                     TerritorioJpaEntity territorio,
                                     SectorJpaEntity sector,
-                                    Integer annio,
+                                    Integer anio,
                                     Integer trimestre,
                                     Integer puestos) {
         this.id = id;
         this.territorio = territorio;
         this.sector = sector;
-        this.annio = annio;
+        this.anio = anio;
         this.trimestre = trimestre;
         this.puestos = puestos;
     }
 
     public Long getId() {
+
         return id;
     }
 
@@ -52,27 +53,33 @@ public class RegistroEmpleoJpaEntity {
     }
 
     public TerritorioJpaEntity getTerritorio() {
+
         return territorio;
     }
 
     public void setTerritorio(TerritorioJpaEntity territorio) {
+
         this.territorio = territorio;
     }
 
     public SectorJpaEntity getSector() {
+
         return sector;
     }
 
     public void setSector(SectorJpaEntity sector) {
+
         this.sector = sector;
     }
 
     public Integer getAnnio() {
-        return annio;
+
+        return anio;
     }
 
-    public void setAnnio(Integer annio) {
-        this.annio = annio;
+    public void setAnnio(Integer annio)
+    {
+        this.anio = annio;
     }
 
     public Integer getTrimestre() {

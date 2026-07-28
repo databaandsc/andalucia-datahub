@@ -3,13 +3,13 @@ package com.andalucia.datahub_backend.domain;
 public class Sector {
 
     private final Long id;
-    private final String CodigoSector;
-    private final String DescripcionSector;
+    private final String codigoSector;
+    private final String descripcionSector;
 
     public Sector(Long id, String CodigoSector, String DescripcionSector) {
         this.id = id;
-        this.CodigoSector = CodigoSector;
-        this.DescripcionSector = DescripcionSector;
+        this.codigoSector = CodigoSector;
+        this.descripcionSector = DescripcionSector;
     }
 
     public Sector(String CodigoSector){
@@ -23,11 +23,11 @@ public class Sector {
 
     public String getCodigoSector() {
 
-        return CodigoSector;
+        return codigoSector;
     }
 
     public String getDescripcionSector() {
 
-        return DescripcionSector;
+        return descripcionSector;
     }
 }

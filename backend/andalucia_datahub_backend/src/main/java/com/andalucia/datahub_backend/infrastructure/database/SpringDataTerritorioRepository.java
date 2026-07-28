@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 public interface SpringDataTerritorioRepository extends JpaRepository<TerritorioJpaEntity, Long> {
 
     // Buscar el territorio por su código exacto
-    TerritorioJpaEntity findByCodigo(String codigo);
+    TerritorioJpaEntity findByCodigoTerritorio(String codigoTerritorio);
 }

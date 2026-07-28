@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface SpringDataSectorRepository extends JpaRepository<SectorJpaEntity, Long> {
 
-    SectorJpaEntity findByCodigo(String codigo);
+    SectorJpaEntity findByCodigoSector(String codigoSector);
 }

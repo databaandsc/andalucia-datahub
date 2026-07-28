@@ -32,8 +32,22 @@ public class RegistroEmpleoPostgresAdapter implements RegistroEmpleoRepository {
     public RegistroEmpleos guardar(RegistroEmpleos registroEmpleo) {
 
         // 1. BUSCAR EN LA BASE DE DATOS
-        TerritorioJpaEntity territorioJpa = territorioRepository.findByCodigo(registroEmpleo.getTerritorio().getCodigoTerritorio());
-        SectorJpaEntity sectorJpa = sectorRepository.findByCodigo(registroEmpleo.getSector().getCodigoSector());
+        TerritorioJpaEntity territorioJpa = territorioRepository.findByCodigoTerritorio(registroEmpleo.getTerritorio().getCodigoTerritorio());
+        SectorJpaEntity sectorJpa = sectorRepository.findByCodigoSector(registroEmpleo.getSector().getCodigoSector());
+
+        if (territorioJpa == null) {
+            territorioJpa = new TerritorioJpaEntity();
+            territorioJpa.setCodigoTerritorio(registroEmpleo.getTerritorio().getCodigoTerritorio());
+            territorioJpa.setDescripcionTerritorio(registroEmpleo.getTerritorio().getDescripcionTerritorio());
+            territorioJpa = territorioRepository.save(territorioJpa);
+        }
+
+        if (sectorJpa == null) {
+            sectorJpa = new SectorJpaEntity();
+            sectorJpa.setCodigoSector(registroEmpleo.getSector().getCodigoSector());
+            sectorJpa.setDescripcionSector(registroEmpleo.getSector().getDescripcionSector());
+            sectorJpa = sectorRepository.save(sectorJpa);
+        }
 
         // 2. MAPEO:
         RegistroEmpleoJpaEntity registroJpa = new RegistroEmpleoJpaEntity();
@@ -53,12 +67,12 @@ public class RegistroEmpleoPostgresAdapter implements RegistroEmpleoRepository {
     // --- MÉTODOS PENDIENTES DE IMPLEMENTAR ---
 
     @Override
-    public List<RegistroEmpleos> buscarPorAnio(Integer anio) {
+    public List<RegistroEmpleos> buscarPorAnio(Integer annio) {
         return null;
     }
 
     @Override
-    public List<RegistroEmpleos> buscarPorAnioTrimestre(Integer anio, Integer trimestre) {
+    public List<RegistroEmpleos> buscarPorAnioAndTrimestre(Integer annio, Integer trimestre) {
         return null;
     }
 

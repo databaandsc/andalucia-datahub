@@ -19,7 +19,7 @@ public class RegistroEmpleoController {
     }
 
     // 3. Establacemos la puerta de conexión a Internet
-    @PostMapping("/importar")
+    @PostMapping("/importarRegistro")
     public ResponseEntity<String> importarDesdeJson(@RequestBody RegistroEmpleoDTO dto) {
 
         // 4. MAPEO: Convertir el DTO (Internet) al• (Dominio)

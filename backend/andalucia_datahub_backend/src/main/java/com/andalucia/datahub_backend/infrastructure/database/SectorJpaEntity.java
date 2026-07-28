@@ -19,35 +19,41 @@ public class SectorJpaEntity {
     //JPA
     public SectorJpaEntity() {}
 
-    public SectorJpaEntity(Long id, String codigo_sector, String descripcion_sector) {
+    public SectorJpaEntity(Long id, String codigoSector, String descripcionSector) {
         this.id = id;
-        this.codigoSector = codigo_sector;
-        this.descripcionSector = descripcion_sector;
+        this.codigoSector = codigoSector;
+        this.descripcionSector = descripcionSector;
     }
 
     // Getters y Setters
 
     public Long getId() {
+
         return id;
     }
 
     public void setId(Long id) {
+
         this.id = id;
     }
 
-    public String getCodigo_sector() {
+    public String getCodigoSector() {
+
         return codigoSector;
     }
 
-    public void setCodigo_sector(String codigo_sector) {
-        this.codigoSector = codigo_sector;
+    public void setCodigoSector(String codigoSector) {
+
+        this.codigoSector = codigoSector;
     }
 
-    public String getDescripcion_sector() {
+    public String getDescripcionSector() {
+
         return descripcionSector;
     }
 
-    public void setDescripcion_sector(String descripcion_sector) {
-        this.descripcionSector = descripcion_sector;
+    public void setDescripcionSector(String descripcionSector) {
+
+        this.descripcionSector = descripcionSector;
     }
 }

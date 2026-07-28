@@ -10,7 +10,7 @@ public interface SpringDataRegistroEmpleoRepository extends JpaRepository<Regist
 
     // Busca por año:
     // SELECT * FROM registro_empleos WHERE año = ?
-    List<RegistroEmpleoJpaEntity> findByAnnio(Integer annio);
+    List<RegistroEmpleoJpaEntity> findByAnio(Integer anio);
 
     // Busca por trimestre:
     // SQL: SELECT * FROM registro_empleos WHERE trimestre = ?
@@ -18,9 +18,9 @@ public interface SpringDataRegistroEmpleoRepository extends JpaRepository<Regist
 
     // Busca Año Y Trimestre:
     // SQL: SELECT * FROM registro_empleos WHERE año = ? AND trimestre = ?
-    List<RegistroEmpleoJpaEntity> findByAnnioTrimestre(Integer annio, Integer trimestre);
+    List<RegistroEmpleoJpaEntity> findByAnioAndTrimestre(Integer anio, Integer trimestre);
 
     // Busca los que tengan MÁS de X puestos de trabajo:
     // SQL: SELECT * FROM registro_empleos WHERE puestos > ?
-    List<RegistroEmpleoJpaEntity> findByPuestosGreaterThan(Double puestosMinimos);
+    List<RegistroEmpleoJpaEntity> findByPuestosGreaterThan(Integer puestosMinimos);
 }

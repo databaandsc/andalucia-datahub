@@ -19,37 +19,37 @@ public class TerritorioJpaEntity {
     // JPA
     public TerritorioJpaEntity() {}
 
-    public TerritorioJpaEntity(Long id, String codigo, String descripcion) {
+    public TerritorioJpaEntity(Long id, String codigoTerritorio, String descripcionTerritorio) {
         this.id = id;
-        this.codigoTerritorio = codigo;
-        this.descripcionTerritorio = descripcion;
+        this.codigoTerritorio = codigoTerritorio;
+        this.descripcionTerritorio = descripcionTerritorio;
     }
 
     //  Getters y Setters
-    public Long getId() {
+    public Long getId()
+    {
         return id;
     }
-    public void setId(Long id) {
+
+    public void setId(Long id)
+    {
         this.id = id;
     }
 
-    public String getCodigo() {
-
+    public String getCodigoTerritorio() {
         return codigoTerritorio;
     }
 
-    public void setCodigo(String codigo) {
-
-        this.codigoTerritorio = codigo;
+    public void setCodigoTerritorio(String codigoTerritorio) {
+        this.codigoTerritorio = codigoTerritorio;
     }
 
-    public String getDescripcion() {
-
+    public String getDescripcionTerritorio() {
         return descripcionTerritorio;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcionTerritorio = descripcion;
+    public void setDescripcionTerritorio(String descripcionTerritorio) {
+        this.descripcionTerritorio = descripcionTerritorio;
     }
 
 }
