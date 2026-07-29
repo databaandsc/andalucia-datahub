@@ -2,6 +2,8 @@ package com.andalucia.datahub_backend.infrastructure.adapters;
 
 import com.andalucia.datahub_backend.domain.RegistroEmpleos;
 import com.andalucia.datahub_backend.domain.RegistroEmpleoRepository;
+import com.andalucia.datahub_backend.domain.Sector;
+import com.andalucia.datahub_backend.domain.Territorio;
 import com.andalucia.datahub_backend.infrastructure.database.RegistroEmpleoJpaEntity;
 import com.andalucia.datahub_backend.infrastructure.database.SectorJpaEntity;
 import com.andalucia.datahub_backend.infrastructure.database.SpringDataRegistroEmpleoRepository;
@@ -10,6 +12,7 @@ import com.andalucia.datahub_backend.infrastructure.database.SpringDataTerritori
 import com.andalucia.datahub_backend.infrastructure.database.TerritorioJpaEntity;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -64,25 +67,60 @@ public class RegistroEmpleoPostgresAdapter implements RegistroEmpleoRepository {
         return registroEmpleo;
     }
 
-    // --- MÉTODOS PENDIENTES DE IMPLEMENTAR ---
+    // --- MÉTODOS GET ---
 
     @Override
     public List<RegistroEmpleos> buscarPorAnio(Integer annio) {
-        return null;
-    }
+        // Obtenemos los datos de base de datos
+        List<RegistroEmpleoJpaEntity> entidadesJpa = registroRepository.findByAnio(annio);
 
+        // Llamamos al método privado
+        return mapearLista(entidadesJpa);
+
+
+    }
+    
     @Override
     public List<RegistroEmpleos> buscarPorAnioAndTrimestre(Integer annio, Integer trimestre) {
-        return null;
+        //Obtenemos los datos de la base de datos
+        List<RegistroEmpleoJpaEntity> entidadesJpa = registroRepository.findByAnioAndTrimestre(annio, trimestre);
+        return mapearLista(entidadesJpa);
+
     }
 
     @Override
     public List<RegistroEmpleos> buscarPorTerritorio(String codigoTerritorio) {
-        return null;
+        List<RegistroEmpleoJpaEntity> entidadesJpa = registroRepository.findByTerritorio_CodigoTerritorio(codigoTerritorio);
+        return mapearLista(entidadesJpa);
     }
 
     @Override
     public List<RegistroEmpleos> buscarPorSector(String codigoSector) {
-        return null;
+        List<RegistroEmpleoJpaEntity> entidadesJpa = registroRepository.findBySector_CodigoSector(codigoSector);
+        return mapearLista(entidadesJpa);
     }
+
+    private List<RegistroEmpleos> mapearLista(List<RegistroEmpleoJpaEntity> entidadesJpa) {
+        return entidadesJpa.stream().map(jpa -> {
+            Territorio territorio = new Territorio(
+                    jpa.getTerritorio().getId(),
+                    jpa.getTerritorio().getCodigoTerritorio(),
+                    jpa.getTerritorio().getDescripcionTerritorio()
+            );
+            Sector sector = new Sector(
+                    jpa.getSector().getId(),
+                    jpa.getSector().getCodigoSector(),
+                    jpa.getSector().getDescripcionSector()
+            );
+            return new RegistroEmpleos(
+                    jpa.getId(),
+                    territorio,
+                    sector,
+                    jpa.getAnnio(),
+                    jpa.getTrimestre(),
+                    jpa.getPuestos()
+            );
+        }).toList();
+    }
+
 }
